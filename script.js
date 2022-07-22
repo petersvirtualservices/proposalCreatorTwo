@@ -90,6 +90,12 @@ $("#submit").click(function (event) {
   else
     experience.push("");
 
+    if ($("#salesforce").is(':checked'))
+    experience.push(`
+    <br/>I have worked on the interface side of Salesforce, creating orders and looking up information for customers.`);  // checked
+  else
+    experience.push("");
+
     
     
     
@@ -126,8 +132,8 @@ $("#submit").click(function (event) {
   $("#goesHere3").html(experience);
   $("#goesHere4").html(timeline);
   $("#goesHere5").html(signOff);
-  //$("#goesHere6").html("Charlene");
-  $("#goesHere7").html(name);
+  $("#goesHere6").html("Charlene");
+
 });
 
 
