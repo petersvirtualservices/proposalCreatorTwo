@@ -105,11 +105,11 @@ $("#submit").click(function (event) {
     if ($("#portfolioHTML").is(':checked'))
     experience.push(`
     View My HTML/CSS Work: 
-    <br/>PVS Landing Page: https://petersvirtualservices.github.io/PVSLandingPage1/
-    <br/>Email Duplication: https://petersvirtualservices.github.io/htmlemailexamples/emailThree.html
-    <br/>Password Change Email Example: https://petersvirtualservices.github.io/htmlemailexamples/emailTwo.html
-    <br/>Original Email Template: https://petersvirtualservices.github.io/htmlemailexamples/emailOne.html
-    <br/>Email Signature: https://petersvirtualservices.github.io/htmlemailexamples/emailSignature.html
+    <br/>PVS Landing Page: https://petersvirtualservices.github.io/HTMLCSSOnly/PVSLandingPage1/
+    <br/>Email Duplication: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailThree.html
+    <br/>Password Change Email Example: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailTwo.html
+    <br/>Original Email Template: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailOne.html
+    <br/>Email Signature: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailSignature.html
     <br/><br/>`);  
   else
     experience.push("");
