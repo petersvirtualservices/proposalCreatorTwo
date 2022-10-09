@@ -110,6 +110,8 @@ $("#submit").click(function (event) {
     <br/>Password Change Email Example: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailTwo.html
     <br/>Original Email Template: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailOne.html
     <br/>Email Signature: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailSignature.html
+    <br/>I Love Romantic Book Quotes (Using Handlebars and Javascript): https://ilrbqpage.herokuapp.com/
+    <br/>I Appreciate Me, Not Obesity (Simple HTML App That Can Go Offline If Started From A Server): https://petersvirtualservices.github.io/IAppreciateMeNotObesity/
     <br/><br/>`);  
   else
     experience.push("");
