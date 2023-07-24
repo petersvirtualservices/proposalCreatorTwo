@@ -18,7 +18,7 @@ $("#submit").click(function (event) {
     experience.push("");
 
   if ($("#projectManager").is(':checked'))
-    experience.push(`I am an experienced project manager who has worked with a 4-person team to ensure that mystery shops were completed successfully.  I was responsible for creating and delivering reports, communcating with my team about their progress and organizing financial payments.  With another client, I was responsible for creating and implementing a system that communicates installation instructions to make sure that the staff was prepared.<br/><br/>`);  
+    experience.push(`I am an experienced project manager who has worked with a 4-person team to ensure that mystery shops were completed successfully.  I was responsible for creating and delivering reports, communcating with my team about their progress and organizing financial payments.  With another client, I was responsible for creating and implementing a system that communicates installation instructions to make sure that the staff was prepared.  I recently competed in a competition where I lead a team of three of web designers to be a finalist in an Alumni Next Level Competition.<br/><br/>`);  
   else
     experience.push("");
 
@@ -83,12 +83,12 @@ $("#submit").click(function (event) {
     //***Characteristics */    
 
     if ($("#details").is(':checked'))
-    experience.push(`Paying attention to every detail is one of the keys to my success.  I find that one of my greatest secrets is to break the tasks down into smaller tasks and to create a routine before I start.  Please review my portfolio to see how my clients have felt about my attention to detail.<br/><br/>`);  
+    experience.push(`Paying attention to every detail is one of the keys to my success. I find that one of my greatest secrets is to break the tasks down into smaller tasks and create a routine before I start. Please review my portfolio to see how my clients have felt about my attention to detail.<br/><br/>`);  
   else
     experience.push("");
 
     if ($("#communication").is(':checked'))
-    experience.push(`I find that my communcation skills derive from my drive to complete tasks for further my clients' goals.  I am a native English speaker who has taken college-level courses with a final grade of A's in most of them.  I have since applied that knowledge to write psychological summaries, customer profiles and product reviews.  I have also been responsible for creating telemarketing campaigns meant to verify marketing information.<br/><br/>`);  
+    experience.push(`I find that my communication skills derive from my drive to complete tasks to further my clients' goals. I am a native English speaker who has taken college-level courses with a final grades of A's in most of them. I have since applied that knowledge to write psychological summaries, customer profiles, and product reviews. I have also been responsible for creating telemarketing campaigns meant to verify marketing information.<br/><br/>`);  
   else
     experience.push("");
 
@@ -102,30 +102,6 @@ $("#submit").click(function (event) {
   else
     experience.push("");
 
-    if ($("#portfolioHTML").is(':checked'))
-    experience.push(`
-    View My HTML/CSS Work: 
-    <br/>PVS Landing Page: https://petersvirtualservices.github.io/HTMLCSSOnly/PVSLandingPage1/
-    <br/>Email Duplication: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailThree.html
-    <br/>Password Change Email Example: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailTwo.html
-    <br/>Original Email Template: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailOne.html
-    <br/>Email Signature: https://petersvirtualservices.github.io/HTMLCSSOnly/htmlemailexamples/emailSignature.html
-    <br/>I Love Romantic Book Quotes (Using Handlebars and Javascript): https://ilrbqpage.herokuapp.com/
-    <br/>I Appreciate Me, Not Obesity (Simple HTML App That Can Go Offline If Started From A Server): https://petersvirtualservices.github.io/IAppreciateMeNotObesity/
-    <br/><br/>`);  
-  else
-    experience.push("");
-
-    if ($("#portfolioJavaScript").is(':checked'))
-    experience.push(`
-    View My JavaScript Work: 
-    <br/>Change Converter Using IndexedDB: https://petersvirtualservices.github.io/changeconverter/
-    <br/>Storyline Creator: https://petersvirtualservices.github.io/storylinecreatorvanillajavascript/
-    <br/>Proposal Creator Using JQuery: https://petersvirtualservices.github.io/proposalCreator/
-    <br/>I Love Romantic Book Quotes (Using Handlebars and Javascript): https://ilrbqpage.herokuapp.com/
-    <br/><br/>`);  
-  else
-    experience.push("");    
     
     if ($("#hours").is(':checked'))
     experience.push(`
@@ -133,9 +109,15 @@ $("#submit").click(function (event) {
   else
     experience.push("");  
     
+    if ($("#security").is(':checked'))
+    experience.push(`I take security very seriously.  I make sure to work on a password-protected computer and have anti-malware software installed on my computer.  I also lock my screen when I leave my workspace.<br/><br/>`);  
+  else
+    experience.push("");
 
-
-
+    if ($("#accuracy").is(':checked'))
+    experience.push(`I ensure accuracy by double-reading the data in front of me as I type.  I also will also take time to stop typing from time to time to take a deep breath and check my work.<br/><br/>`);  
+  else
+    experience.push("");
   //***Sign-Off***
 
   if ($("#signOffOne").is(':checked'))
